@@ -1,0 +1,11 @@
+<h3>Delete User Posts</h3>
+<%= form_tag(admin_your_plugin_name_settings_path, method: :put) do %>
+  <%= label_tag(:delete_user_posts_username, "Username:") %>
+  <%= text_field_tag(:delete_user_posts_username, SiteSetting.delete_user_posts_username) %>
+  <br>
+  <%= label_tag(:delete_user_posts_batch_count, "Batch Count:") %>
+  <%= text_field_tag(:delete_user_posts_batch_count, SiteSetting.delete_user_posts_batch_count) %>
+  <br>
+  <%= button_tag("Delete Posts", name: :delete_user_posts_button, value: 1) %>
+<% end %>
+ 

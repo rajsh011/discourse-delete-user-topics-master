@@ -1,0 +1,12 @@
+plugins:
+  delete_user_topics_enabled:
+    default: true
+
+  delete_user_topics_dry_run:
+    default: true
+
+  delete_posts_for_username:
+    default: ""
+
+  delete_posts_in_single_batch:
+    default: 100

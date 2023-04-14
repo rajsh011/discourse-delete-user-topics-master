@@ -1,0 +1,6 @@
+en:
+  site_settings:
+    delete_user_topics_enabled: 'Enable Delete user Topics plugin. Enabling this will run a scehedular job that will delete posts created by given user in batches. ( Remember to disable this when all posts for user has been deleted)'
+    delete_user_topics_dry_run: 'Delete user Topics in Dry Run Mode (only log actions).'
+    delete_posts_for_username: 'Delete all posts for user name '
+ 
