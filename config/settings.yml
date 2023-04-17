@@ -1,6 +1,6 @@
 plugins:
   delete_user_topics_enabled:
-    default: true
+    default: false
 
   delete_user_topics_dry_run:
     default: true
@@ -9,4 +9,4 @@ plugins:
     default: ""
 
   delete_posts_in_single_batch:
-    default: 100
+    default: 100 
