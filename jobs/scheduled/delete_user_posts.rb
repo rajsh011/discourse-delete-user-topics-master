@@ -16,7 +16,6 @@ module Jobs
       return unless user.present?
 
       posts = user.posts.order(created_at: :asc)
-      return if posts.empty?
 
       deleted_count = 0
       posts.each do |post|
