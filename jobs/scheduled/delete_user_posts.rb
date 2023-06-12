@@ -2,7 +2,7 @@
 
 module Jobs
   class DeleteUserPosts < ::Jobs::Scheduled
-    every 1.minutes
+    every 2.minutes
 
     def execute(args)
       return unless SiteSetting.delete_user_topics_enabled?
