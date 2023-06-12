@@ -8,7 +8,7 @@ module Admin
         # ... 
   
         if params[:delete_user_posts_button].present?
-          Jobs.enqueue(:delete_user_posts_job)
+          Jobs.enqueue(:delete_user_posts)
         end
   
         # ...
