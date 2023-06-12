@@ -1,5 +1,5 @@
 plugins:
-  delete_user_topics_enabled:
+  delete_user_topics_enable:
     default: true
 
   delete_user_topics_dry_run:

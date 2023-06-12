@@ -5,7 +5,7 @@
 # author: kbiz
 # url: https://forums.mixedmartialarts.com/
 
-enabled_site_setting :delete_user_topics_enabled
+enabled_site_setting :delete_user_topics_enable
 after_initialize do
   require_dependency File.expand_path("../jobs/scheduled/delete_user_posts.rb", __FILE__)
 end

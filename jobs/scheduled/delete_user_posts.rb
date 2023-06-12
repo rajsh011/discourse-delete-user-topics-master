@@ -5,7 +5,7 @@ module Jobs
     every 2.minutes
 
     def execute(args)
-      return unless SiteSetting.delete_user_topics_enabled?
+      return unless SiteSetting.delete_user_topics_enable?
 
       username = SiteSetting.delete_posts_for_usernamee
       posts_per_batch = SiteSetting.delete_posts_in_single_batchs.to_i
