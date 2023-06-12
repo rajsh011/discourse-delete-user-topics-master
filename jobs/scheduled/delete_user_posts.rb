@@ -2,13 +2,13 @@
 
 module Jobs
   class DeleteUserPosts < ::Jobs::Scheduled
-    every 2.minutes
+    every 1.minutes
 
     def execute(args)
       return unless SiteSetting.delete_user_topics_enabled?
 
-      username = SiteSetting.delete_posts_for_username
-      posts_per_batch = SiteSetting.delete_posts_in_single_batch.to_i
+      username = SiteSetting.delete_posts_for_usernamee
+      posts_per_batch = SiteSetting.delete_posts_in_single_batchs.to_i
 
       return unless username.present? && posts_per_batch.positive?
 

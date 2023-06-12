@@ -1,6 +1,6 @@
 en:
   site_settings:
     delete_user_topics_enabled: 'Enable Delete users posts plugin.'
-    delete_posts_for_username: 'Delete Posts for username'
-    delete_posts_in_single_batch: 'Number of posts to delete in single batch.'
+    delete_posts_for_usernamee: 'Delete Posts for username'
+    delete_posts_in_single_batchs: 'Number of posts to delete in single batch.'
     delete_user_topics_dry_run: 'Delete posts for user in Dry Run Mode (only log actions).'

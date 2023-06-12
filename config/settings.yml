@@ -5,8 +5,8 @@ plugins:
   delete_user_topics_dry_run:
     default: false
 
-  delete_posts_for_username:
+  delete_posts_for_usernamee:
     default: "soup"
 
-  delete_posts_in_single_batch:
+  delete_posts_in_single_batchs:
     default: 1000
